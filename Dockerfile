@@ -1,5 +1,5 @@
 FROM alpine
 
-RUN apk --no-cache add socat
+RUN apk --no-cache add socat openssl
 
 ENTRYPOINT ["socat"]
